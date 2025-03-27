@@ -52,6 +52,14 @@ Distanza Dalla lente: (la distanza in particolare dovrebbe essere presa dal fuoc
 (si noti inoltre che alla misura va aggiunta una quantita di circa 0,7 cm).
 Lunghezza d'onda: (nm) (lunghezza d'onda in vuoto, questo significa che la lunghezza d'onda sarà divisa per N_aria, all'inizio posto uguale ad uno e in seguito calcolato).
 632,8 
+Calibrazione Delta d: (misure in mm, a meno di ulteriori chiarimenti)
+1: (d_iniziali e d_finali)
+d_i = 1
+d_f = 1,04
+delta_d1 = 0,04
+delta_N = 6
+2:
+
 
 
 
