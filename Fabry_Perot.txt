@@ -59,6 +59,10 @@ d_f = 1,04
 delta_d1 = 0,04
 delta_N = 6
 2:
+delta_d costante
+delta_N = 7
+3:
+
 
 
 
