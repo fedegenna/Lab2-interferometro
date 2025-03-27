@@ -1,1 +1,3 @@
-Angoli:
+raggi:
+(segnalo che il primo cerchio si vedeva con pochissima precisione tanto da sembrare un punto sfocato: tutte le misure degli ordini delle frange saranno quindi influenzate da un Delta N e un N di riferimento non noto a priori essendo che non tutta la figura si vede)
+
