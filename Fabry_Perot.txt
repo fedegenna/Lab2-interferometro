@@ -1,3 +1,58 @@
-raggi:
-(segnalo che il primo cerchio si vedeva con pochissima precisione tanto da sembrare un punto sfocato: tutte le misure degli ordini delle frange saranno quindi influenzate da un Delta N e un N di riferimento non noto a priori essendo che non tutta la figura si vede)
+raggi: (cm)
+(segnalo che il primo cerchio si vedeva con pochissima precisione tanto da sembrare un punto sfocato: tutte le misure degli ordini delle frange saranno quindi influenzate da un Delta N e un N di riferimento non noto a priori essendo che non tutta la figura si vede, quando intendo raggio uno intenderò quindi il raggio più vicino al centro, eccettuato per la "singolarità", inoltre ogni misura avrà due valori tenendo in conto lo spessore,saran, il raggio sarà la media. colonne saranno misura Alice Dario Fed, righe sono ciò che è descritto)
+Raggio 1:
+interno:
+1,9  2 2
+esterno:
+2,2  2,4 2,3
+
+Raggio 2:
+int:
+2,8  2,8 2,9
+ext:
+3  3,1 3,1
+raggio 3:
+int:
+3,4  3,4 3,5
+ext:
+3,5  3,7 3,7
+Raggio 4:
+int:
+3,9  3,9 4,1
+ext:
+4  4,2 4,3
+Raggio 5:
+int: (per Alice sia int che ext)
+4,4  4,4 4,6
+ext: (solo Dario e Fed)
+4,6 4,8 4,7
+Raggio 6:
+int:
+4,8  4,9 5
+ext:
+5,1 5,2 5,2
+raggio 7:
+int:
+5,2  5,2 5,4
+ext:
+5,3 5,6 5,5
+raggio 8:
+int: (Da cui l'ext è solo Dario)
+5,6  5,5 5,8
+ext:
+5,7
+raggio 9:
+int:
+5,9 5,8 6,2
+ext:
+6,0
+
+Distanza Dalla lente: (la distanza in particolare dovrebbe essere presa dal fuoco, le misure riportate sono quelle dirette, ossia le misure con metro dalla lente. Nel programma dovrà essere tenuta in conto la distanza focale (18 mm)). 
+159,4  159,3 159,3
+(si noti inoltre che alla misura va aggiunta una quantita di circa 0,7 cm).
+Lunghezza d'onda: (nm) (lunghezza d'onda in vuoto, questo significa che la lunghezza d'onda sarà divisa per N_aria, all'inizio posto uguale ad uno e in seguito calcolato).
+632,8 
+
+
+
 
