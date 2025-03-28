@@ -37,6 +37,54 @@ int:
 ext:
 2,1  2,4  2,3
 INDICE DI RIFRAZIONE ARIA:
-1: (ogni misura sarà delta_p e delta_N)
+1: (ogni misura sarà delta_p e delta_N) sensibilità di 2kPa o 1Hg Vac (pollici di mercurio) 
+
+11,5 Hg Vac  -39kPa
+7
+2:
+8,5 Hg Vac -29kPa
+6
+3:
+11,5 Hg Vac -39kPa
+7
+4:
+18 Hg Vac  -60kPa
+11
+5:
+14 Hg Vac -48kPa
+9
+
+6:
+5 Hg Vac -18kPa
+4
+
+INDICE DI RIFRAZIONE DEL VETRO:
+delta theta sarà theta in gradi decimali: l'errore su delta theta sarà sensibilità (1 decimo di grado)
+1:
+3,9
+15
+2:
+5,5
+21
+3:
+3,2
+9
+4:
+3,6
+7
+5:
+5,2
+24
+6:
+2,2
+4
+d = 5,33 mm
+
+
+
+
+
+
+
 
 
