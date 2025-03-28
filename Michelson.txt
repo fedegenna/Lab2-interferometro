@@ -4,4 +4,17 @@ delta_n = 6
 2:
 delta_n = 6
 3:
-delta_n = 
+delta_n = 6
+4: ..
+delta_n = 6
+5:
+delta_n  = 6
+6:
+delta_n = 6
+7:
+delta_n = 6
+8:
+delta_n = 6
+9:
+delta_n = 6
+
