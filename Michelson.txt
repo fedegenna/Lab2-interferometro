@@ -17,6 +17,12 @@ delta_n = 6
 delta_n = 6
 9:
 delta_n = 6
+10:
+6
+11:
+7
+12:
+6
 
 misura distanza dalla lente: (non si contano in questo caso i 18mm)
 1:
