@@ -36,4 +36,7 @@ int:
 1,5  1,8  1,5
 ext:
 2,1  2,4  2,3
+INDICE DI RIFRAZIONE ARIA:
+1: (ogni misura sarà delta_p e delta_N)
+
 
