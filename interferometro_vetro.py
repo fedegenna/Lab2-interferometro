@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import chi2
 
-def determina_n_v(theta_f, deltaN, theta_i, d, lambda_, errori_theta_f, errore_theta_i, errori_deltaN, titolo="Determinazione di n_v", xlabel="Theta_f", ylabel="DeltaN"):
+def determina_n_v(theta_f, deltaN, theta_i = 0, d, lambda_, errori_theta_f, errore_theta_i = 0, errori_deltaN, titolo="Determinazione di n_v", xlabel="Theta_f", ylabel="DeltaN"):
     """
     Determina il valore di n_v attraverso l'interpolazione:
     deltaN = 2d(1-cos(theta))(n_v-1) / (lambda * (cos(theta) + n_v - 1)).
@@ -70,19 +70,19 @@ def determina_n_v(theta_f, deltaN, theta_i, d, lambda_, errori_theta_f, errore_t
 
 def main():
     # Dati
-    theta_f = [0.01, 0.02, 0.03, 0.04, 0.05]  # Angoli finali in radianti
-    deltaN = [0.5, 0.6, 0.7, 0.8, 0.9]  # DeltaN
-    theta_i = 0.005  # Angolo iniziale in radianti
-    d = 1e-3  # Spessore noto in metri
+    theta_f = [np.deg2rad(2.2), np.deg2rad(3.2),np.deg2rad(3.6), np.deg2rad(3.9),np.deg2rad(5.2),np.deg2rad(5.5)]  # Angoli finali radianti 
+    deltaN = [4, 9, 7, 15, 24,21]  # DeltaN
+    theta_i = 0  # Angolo iniziale in radianti
+    d = 5.662*pow(10,-3)  # Spessore noto in metri,da vedere in Pasco
     lambda_ = 632.8e-9  # Lunghezza d'onda in metri
 
     # Errori
-    errori_theta_f = [0.0001, 0.0001, 0.0001, 0.0001, 0.0001]  # Errori su theta_f
-    errore_theta_i = 0.0001  # Errore su theta_i
-    errori_deltaN = [0.01, 0.01, 0.01, 0.01, 0.01]  # Errori su DeltaN
+    errori_theta_f = np.deg2rad(0.1)*np.ones(len(theta_f))  # Errori su theta_f
+    errore_theta_i = 0  # Errore su theta_i
+    errori_deltaN = [0.01, 0.01, 0.01, 0.01, 0.01]  # Errori su DeltaN, da capire 
 
     # Grafico
-    determina_n_v(theta_f, deltaN, theta_i, d, lambda_, errori_theta_f, errore_theta_i, errori_deltaN)
+    determina_n_v(theta_f, deltaN, theta_i = 0, d, lambda_, errori_theta_f, errore_theta_i = 0, errori_deltaN)
 
 if __name__ == "__main__":
     main()
