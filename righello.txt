@@ -10,4 +10,4 @@ quarto ordine:
 2,9  3  2,9
 
 distanza dal centro di impattamento: (cm) (sensibilità del millimetro)
-110,6
+81,8
